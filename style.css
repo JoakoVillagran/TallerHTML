@@ -1,0 +1,22 @@
+.img--circular{
+    
+object-fit:cover ;
+    border-radius: 50%;
+    width: 10vw;
+    height: 10vw;
+    margin-left: 35%;
+   
+   }
+
+
+   .div--furvo{
+    margin: 20px auto;
+    width: 1300px;
+    padding: 10px 10px 10px 10px;
+    background-color:rgb(169, 220, 203);
+
+    border: 5px solid rgb(200, 236, 238);
+    border-radius: 20px;
+   
+
+   }
