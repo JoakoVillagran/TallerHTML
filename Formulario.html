@@ -38,15 +38,15 @@
         <form>
             <div class="mb-3">
                 <label for="Nombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="texto">
+                <input type="text" class="form-control" id="texto" required>
               </div>
             <div class="mb-3">
               <label for="Email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
             </div>
             <div class="mb-3">
               <label for="Edad" class="form-label">Edad</label>
-              <input type="number" class="form-control" id="Numero" min="5" max="100">
+              <input type="number" class="form-control" id="Numero" min="5" max="100" required>
             </div>
             <div class="mb-3">
                 <label for="Nombre" class="form-label">Pais</label>
@@ -58,11 +58,15 @@
                    </select>
               </div>
             <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              <input type="checkbox" class="form-check-input" id="CheckRetirado" required>
+              <label class="form-check-label" for="checkRetirado">Retirado?</label>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-success">Enviar</button>
           </form>
       </div>
+
+      <p style="margin-top: 5%; margin-left: 5%;">©JoaquinVillagran
+
+      </p>
 </body>
 </html>
